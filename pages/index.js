@@ -1,6 +1,25 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Header from "../components/header/Header";
+import Cover from "../components/cover/Cover";
+import MainAbout from "../components/main-about/MainAbout";
+import MainHowItWorks from "../components/main-how-it-works/MainHowItWorks";
 
+export default function Home() {
+  return (
+    <>
+      <div className={styles.background_gradient}></div>
+      <Header/>
+      <Cover/>
+      <div className={styles.content}>
+          <MainAbout/>
+          <MainHowItWorks/>
+      </div>
+    </>
+  )
+}
+
+/*
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -63,3 +82,5 @@ export default function Home() {
     </div>
   )
 }
+
+ */

@@ -1,0 +1,14 @@
+.cover {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 185rem;
+}
+
+.headline {
+    padding: 0;
+    margin: 0;
+}
+
+.headline + .headline {
+    margin-top: 8rem;
+}

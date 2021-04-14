@@ -1,0 +1,39 @@
+.cards_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background: #162740;
+    border-radius: 16rem;
+    flex: 1 1 0;
+    padding: 30rem 40rem;
+    position: relative;
+    box-sizing: border-box;
+    height: 300rem;
+}
+
+.card + .card {
+    margin-left: 30rem;
+}
+
+.card_image {
+    height: 150rem;
+    margin: auto;
+    display: block;
+    filter: drop-shadow(0px 4px 50px rgba(113, 155, 255, 0.3));
+}
+
+.card_text {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18rem;
+    line-height: 26rem;
+    text-align: center;
+    color: #E2E3E8;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 30rem;
+}

@@ -1,0 +1,76 @@
+.header {
+    font-family: 'Iceberg', cursive;
+    font-size: 18rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 100rem;
+    padding: 0 150rem 0 120rem;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 9999;
+    border-bottom: 1px solid rgba(70, 78, 108, 0.5);
+}
+
+.logo_link {
+    display: block;
+    margin-right: auto;
+}
+
+.logo_link_image {
+    width: 85rem;
+}
+
+.buy_link {
+    margin-left: 70rem;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #FF284A;
+    border-radius: 8rem;
+    line-height: 22rem;
+    padding: 15rem 30rem;
+    transition: background-color 0.1s;
+}
+
+.buy_link:hover {
+    background-color: #D21533;
+}
+
+.social_network_link {
+    display: block;
+    border-radius: 50%;
+    width: 40rem;
+    height: 40rem;
+}
+
+.social_network_link + .social_network_link {
+    display: block;
+    margin-left: 20rem;
+}
+
+.social_network_icon {
+    width: 40rem;
+    height: 40rem;
+}
+
+.social_network_icon > path {
+    fill: #E2E3E8;
+    transition: fill 0.1s;
+}
+
+.social_network_icon > circle {
+    stroke: #E2E3E8;
+    transition: stroke 0.1s;
+}
+
+.social_network_icon:hover > path {
+    fill: #EE1C3D;
+}
+
+.social_network_icon:hover > circle {
+    stroke: #EE1C3D;
+}
