@@ -6,6 +6,7 @@
     padding: 60rem 120rem;
     background-color: #010F1B;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -29,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
 }
 
 .social_network_link {
@@ -73,4 +75,22 @@
     background-color: #010F1B;
     padding: 23rem 0;
     border-top: 1px solid #464E6C;
+}
+
+@media (max-width: 600px) {
+    .footer_main {
+        flex-direction: column;
+        padding: 40rem 20rem;
+    }
+
+    .links {
+        margin-top: 40rem;
+        justify-content: flex-start;
+        font-size: 16rem;
+        line-height: 20rem;
+    }
+
+    .subscribe_text {
+        font-size: 16rem;
+    }
 }

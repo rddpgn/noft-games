@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1884f0f3-76bc-4f07-9a14-7bd411120629" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/hero-card/HeroCardStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero-card/HeroCardStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/FooterStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/FooterStyle.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <workItem from="1618069934865" duration="9188000" />
       <workItem from="1618416936242" duration="8537000" />
       <workItem from="1618780333758" duration="9457000" />
-      <workItem from="1618852362737" duration="14666000" />
+      <workItem from="1618852362737" duration="14965000" />
     </task>
     <servers />
   </component>
