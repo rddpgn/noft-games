@@ -74,3 +74,23 @@
 .social_network_icon:hover > circle {
     stroke: #EE1C3D;
 }
+
+@media (max-width: 600px) {
+    .header {
+        padding: 20rem;
+        font-size: 16rem;
+    }
+
+    .social_network_link, .social_network_icon {
+        display: none;
+    }
+
+    .buy_link {
+        margin-left: 0;
+        padding: 10rem 20rem;
+    }
+
+    .logo_link_image {
+        width: 68rem;
+    }
+}

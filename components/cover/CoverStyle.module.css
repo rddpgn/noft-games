@@ -12,3 +12,12 @@
 .headline + .headline {
     margin-top: 8rem;
 }
+
+@media (max-width: 600px) {
+    .cover {
+        margin-top: 130rem;
+    }
+    .headline:last-child {
+        padding: 0 60rem;
+    }
+}

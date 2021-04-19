@@ -20,3 +20,21 @@
     top: -50rem;
     width: 50vw;
 }
+
+@media (max-width: 600px) {
+    .about {
+        padding: 80rem 30rem 40rem 30rem;
+    }
+
+    .spaceship {
+        position: absolute;
+        left: -20rem;
+        top: -92rem;
+        width: 100vw;
+    }
+
+    .text {
+        font-size: 16rem;
+        line-height: 24rem;
+    }
+}

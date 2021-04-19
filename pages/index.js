@@ -4,17 +4,28 @@ import Header from "../components/header/Header";
 import Cover from "../components/cover/Cover";
 import MainAbout from "../components/main-about/MainAbout";
 import MainHowItWorks from "../components/main-how-it-works/MainHowItWorks";
+import MainFeatures from "../components/main-features/MainFeatures";
+import MainMarketplace from "../components/main-marketplace/MainMarketplace";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
     <>
+      <Head>
+          <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+          <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      </Head>
+
       <div className={styles.background_gradient}></div>
       <Header/>
       <Cover/>
       <div className={styles.content}>
           <MainAbout/>
           <MainHowItWorks/>
+          <MainFeatures/>
+          <MainMarketplace/>
       </div>
+      <Footer/>
     </>
   )
 }
@@ -41,7 +52,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Find in-depth information about Next.js main-features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>

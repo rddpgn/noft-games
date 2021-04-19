@@ -15,6 +15,7 @@
 
 .card + .card {
     margin-left: 30rem;
+    margin-top: 0;
 }
 
 .card_image {
@@ -36,4 +37,54 @@
     width: 100%;
     left: 0;
     bottom: 30rem;
+}
+
+.link_container {
+    margin-top: 30rem;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    padding: 15rem 50rem;
+    background: #FF284A;
+    border-radius: 8rem;
+
+    font-family: Iceberg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18rem;
+    line-height: 22rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .cards_container {
+        flex-direction: column;
+    }
+
+    .card {
+        min-height: 280rem;
+    }
+
+    .card + .card {
+        margin-left: 0;
+        margin-top: 20rem;
+    }
+
+    .card_image {
+        height: 120rem;
+    }
+
+    .card_text {
+        font-size: 16rem;
+        line-height: 24rem;
+        bottom: 40rem;
+    }
+
+    .link {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

@@ -18,6 +18,9 @@ const MainHowItWorks = () => {
                     <p className={styles.card_text}>Victory as opportunity to get<br/>experience and improve abilities</p>
                 </div>
             </div>
+            <div className={styles.link_container}>
+                <a href="" className={styles.link}>TAKE A CHANCE</a>
+            </div>
         </section>
     )
 }

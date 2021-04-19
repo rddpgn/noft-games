@@ -1,5 +1,4 @@
 import styles from "./HeaderStyle.module.css";
-import Image from "next/image";
 import IconTwitter from "../../public/images/icons/icon-twitter.svg";
 import IconTelegram from "../../public/images/icons/icon-telegram.svg";
 

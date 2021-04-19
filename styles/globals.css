@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: calc(1vw / 14.40);
+  overflow-x: hidden;
 }
 
 body {
@@ -26,6 +27,14 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
 h1 {
   font-family: Iceberg;
   font-style: normal;
@@ -46,4 +55,21 @@ h2 {
   font-size: 25rem;
   line-height: 31rem;
   color: rgba(226, 227, 232, 0.4);
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    font-size: calc(1vw / 3.20);
+  }
+
+  h1 {
+    font-size: 50rem;
+    line-height: 61rem;
+  }
+
+  h2 {
+    font-size: 16rem;
+    line-height: 20rem;
+  }
 }

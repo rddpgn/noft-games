@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1884f0f3-76bc-4f07-9a14-7bd411120629" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/cover/Cover.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/cover/CoverStyle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/HeaderStyle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-about/MainAbout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-about/MainAboutStyle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/header-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/footer/FooterStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hero-card/HeroCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hero-card/HeroCardStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-features/MainFeatures.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-features/MainFeaturesStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-marketplace/MainMarketplace.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/main-marketplace/MainMarketplaceStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cover/CoverStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/cover/CoverStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/HeaderStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/HeaderStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-about/MainAboutStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-about/MainAboutStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
@@ -69,7 +75,9 @@
       <updated>1618069458359</updated>
       <workItem from="1618069459698" duration="428000" />
       <workItem from="1618069934865" duration="9188000" />
-      <workItem from="1618416936242" duration="8154000" />
+      <workItem from="1618416936242" duration="8537000" />
+      <workItem from="1618780333758" duration="9457000" />
+      <workItem from="1618852362737" duration="12453000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,11 @@
+.marketplace_container {
+    display: grid;
+    grid-template-columns: 270rem 270rem 270rem 270rem;
+    grid-gap: 40rem;
+}
+
+@media (max-width: 600px) {
+    .marketplace_container {
+        grid-template-columns: 270rem;
+    }
+}
