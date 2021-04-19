@@ -280,4 +280,8 @@
     .buy_button {
         padding: 15rem;
     }
+
+    .card_front_image_container > img {
+        width: 100%;
+    }
 }
