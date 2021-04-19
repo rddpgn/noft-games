@@ -31,11 +31,11 @@
 .card_front_image_container::after {
     background: linear-gradient(0deg, #162740 0.11%, rgba(22, 39, 64, 0) 100%);
     width: 100%;
-    height: 101%;
+    height: 51%;
     border-radius: 16rem;
     display: block;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
     content: '';
 }
@@ -59,7 +59,7 @@
     color: rgba(226, 227, 232, 0.7);
     width: 100%;
     background: url("/images/icons/card-head.svg");
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -217,6 +217,7 @@
 
 .buy_button_front {
     margin-top: 20rem;
+    display: none;
 }
 
 .close_button {
@@ -244,10 +245,6 @@
         left: 0;
     }
 
-    .card_back_header > img {
-        display: none;
-    }
-
     .card_back_header_wrapper {
         margin-left: 0;
     }
@@ -261,7 +258,7 @@
         position: absolute;
         width: 64rem;
         height: 64rem;
-        top: 0;
+        top: 10rem;
         right: 0;
     }
 
@@ -284,4 +281,13 @@
     .card_front_image_container > img {
         width: 100%;
     }
+
+    .buy_button_front {
+        display: block;
+    }
+
+    .card_back_header > img {
+        display: none !important;
+    }
+
 }

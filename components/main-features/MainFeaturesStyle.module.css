@@ -26,7 +26,7 @@
     top: 50%;
     left: -30rem;
     transform: translateY(-50%);
-    width: 116%;
+    width: 373rem;
 }
 
 .features_row_container {
@@ -44,6 +44,8 @@
 
 .features_row > div {
     flex: 1 1 0;
+    display: flex;
+    align-items: center;
 }
 
 .features_row > img {
@@ -79,5 +81,6 @@
 
     .main_image {
         left: -14rem;
+        width: 256rem;
     }
 }
