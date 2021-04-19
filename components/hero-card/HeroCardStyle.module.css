@@ -43,7 +43,7 @@
 .card_front_image_container > img {
     border-radius: 20rem;
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 .card_front_image_price {
