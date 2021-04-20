@@ -83,7 +83,7 @@
 
 .rocket {
     display: inline-block;
-    margin-left: 34rem;
+    margin-left: 16rem;
     animation-name: rocket;
     animation-duration: 2s;
     animation-fill-mode: forwards;

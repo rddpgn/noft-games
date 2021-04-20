@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
           <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
           <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MF37WJK05"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBF3265JP3"></script>
           <script dangerouslySetInnerHTML={{__html: `
               [ window.dataLayer = window.dataLayer || [];
               function gtag(){
@@ -22,7 +22,7 @@ export default function Home() {
               }
               gtag('js', new Date());
 
-              gtag('config', 'G-6MF37WJK05');]`
+              gtag('config', 'G-LBF3265JP3');]`
           }}/>
       </Head>
 
