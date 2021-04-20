@@ -26,6 +26,11 @@
   .content {
     padding: 0 calc((100vw - 1200px) / 2);
   }
+
+  .background_gradient {
+    background: linear-gradient(180deg, rgba(5, 13, 38, 0.2) 0%, #050D26 100%),
+    url("/images/backgrounds/background-cover-big.png");
+  }
 }
 
 @media (max-width: 600px) {
