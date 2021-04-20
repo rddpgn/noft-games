@@ -31,6 +31,7 @@
     margin-top: 0;
     transition: background-color, 0.2s;
     display: inline-block;
+    outline: none;
 }
 
 .button:hover {
@@ -73,11 +74,25 @@
     font-weight: normal;
     font-size: 14rem;
     line-height: 17rem;
-    color: #184ac1;
+    color: #3e5388;
 }
 
 .success * {
-    color: #184ac1;
+    color: #3e5388;
+}
+
+.rocket {
+    display: inline-block;
+    margin-left: 34rem;
+    animation-name: rocket;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes rocket {
+    from { left: 0; opacity: 1 }
+    to { left: 20rem; opacity: 0 }
 }
 
 @media (max-width: 600px) {
@@ -90,5 +105,9 @@
         margin-left: 0;
         margin-top: 20rem;
         width: 100%;
+    }
+
+    .rocket {
+        display: none;
     }
 }

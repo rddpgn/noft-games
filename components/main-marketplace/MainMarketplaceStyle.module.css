@@ -44,9 +44,19 @@
     padding-bottom: 100rem;
 }
 
+.margined {
+    margin-left: 10rem;
+}
+
+.slider_counter {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .slider {
         display: block !important;
+        width: 100vw;
+        transform: translateX(-20rem);
     }
     .marketplace_container {
         display: none;
@@ -55,5 +65,16 @@
         display: flex !important;
         height: 555rem;
         box-sizing: border-box;
+    }
+    .slider_counter {
+        display: block;
+        font-family: Lexend;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16rem;
+        line-height: 20rem;
+        text-align: center;
+        color: #464E6C;
+        margin-top: 30rem;
     }
 }

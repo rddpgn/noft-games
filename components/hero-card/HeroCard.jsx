@@ -13,8 +13,7 @@ const HeroCard = (props) => {
                     </div>
                 </div>
                 <div className={styles.card_front_name_container}>
-                    <div className={styles.card_front_name}>Noft Name</div>
-                    <div>View attributes +</div>
+                    <div className={styles.card_front_name}>Noft Game</div>
                     <a href="#subscribe-form" className={styles.buy_button + ' ' + styles.buy_button_front}>BUY</a>
                 </div>
             </div>
@@ -23,7 +22,7 @@ const HeroCard = (props) => {
                 <div className={styles.card_back_header}>
                     <img src="/images/pictures/card-hero.jpg" alt=""/>
                     <div className={styles.card_back_header_wrapper}>
-                        <div className={styles.card_back_header_name}>Noft Name</div>
+                        <div className={styles.card_back_header_name}>Noft Game</div>
                         <div className={styles.card_back_stats_container}>
                             <div className={styles.card_back_stats}>
                                 <div>1</div>

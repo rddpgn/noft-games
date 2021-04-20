@@ -1,21 +1,26 @@
 import styles from "./MainMarketplaceStyle.module.css";
 import HeroCard from "../hero-card/HeroCard";
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-};
+
 
 const MainMarketplace = () => {
     const [cardsState, setOpenedCardId] = useState([false, false, false, false, false, false]);
-    const onClickCallback = (cardId, state) => setOpenedCardId(cardsState.map((cardState, index) => index === cardId && state));
+    //const onClickCallback = (cardId, state) => setOpenedCardId(cardsState.map((cardState, index) => index === cardId && state));
+    const onClickCallback = (cardId, state) => null;
+    const [currentCard, setCurrentCard] = useState(0);
+
+    const settings = {
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        afterChange: (index) => setCurrentCard(index),
+    };
 
     return (
         <section>
@@ -27,7 +32,7 @@ const MainMarketplace = () => {
                 <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
                 <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
                 <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
-                <a href="#subscribe-form" className={styles.void_card}><div>Choose Your Heroes</div></a>
+                <a href="#subscribe-form" className={styles.void_card}><div>Subscribe for updates</div></a>
             </div>
             <Slider {...settings} className={styles.slider}>
                 <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0}/>
@@ -36,10 +41,11 @@ const MainMarketplace = () => {
                 <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
                 <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
                 <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
-                <a href="#subscribe-form" className={styles.void_card}><div>Choose Your Heroes</div></a>
+                <a href="#subscribe-form" className={styles.void_card}><div>Subscribe for updates</div></a>
             </Slider>
+            <div className={styles.slider_counter}>{currentCard + 1}/7</div>
         </section>
     )
 };
 
-export default  MainMarketplace;
+export default MainMarketplace;
