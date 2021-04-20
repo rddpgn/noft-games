@@ -27,6 +27,7 @@ const MainMarketplace = () => {
                 <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
                 <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
                 <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
+                <a href="#subscribe-form" className={styles.void_card}><div>Choose Your Heroes</div></a>
             </div>
             <Slider {...settings} className={styles.slider}>
                 <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0}/>
@@ -35,19 +36,7 @@ const MainMarketplace = () => {
                 <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
                 <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
                 <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
-            </Slider>
-        </section>
-    )
-    return (
-        <section>
-            <h2>MARKETPLACE</h2>
-            <Slider {...settings}>
-                <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0}/>
-                <HeroCard opened={cardsState[1]} onclick={onClickCallback} cardId={1}/>
-                <HeroCard opened={cardsState[2]} onclick={onClickCallback} cardId={2}/>
-                <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
-                <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
-                <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
+                <a href="#subscribe-form" className={styles.void_card}><div>Choose Your Heroes</div></a>
             </Slider>
         </section>
     )

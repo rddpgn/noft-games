@@ -6,7 +6,7 @@ import SubscriptionForm from "../subcription-form/SubscriptionForm";
 
 const twitterLink = '//twitter.com/noftgames';
 const telegramLink = '//t.me/noftgames';
-const subscriptionLink = "//yandex.us1.list-manage.com/subscribe/post?u=6f2e045922cbfbbb5db446716&amp;id=32b2484365";
+const subscriptionLink = "//noftgames.us1.list-manage.com/subscribe/post?u=e72b9640cf303d7df9c23924f&amp;id=9ae71486e4"
 
 const Footer = () => {
     return (

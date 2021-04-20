@@ -18,6 +18,19 @@
     margin-top: 0;
 }
 
+.card + .card::after {
+    display: block;
+    position: absolute;
+    width: 140rem;
+    height: 16rem;
+    content: '';
+    background: url("/images/utils/arrow-h.svg");
+    left: -86rem;
+    top: 100rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .card_image {
     height: 150rem;
     margin: auto;
@@ -91,5 +104,15 @@
     .link {
         width: 100%;
         box-sizing: border-box;
+    }
+
+    .card + .card::after {
+        left: 47.5%;
+        top: -50rem;
+        background: url("/images/utils/arrow-v.svg");
+        width: 15rem;
+        height: 70rem;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }

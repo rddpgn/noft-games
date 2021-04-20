@@ -8,11 +8,52 @@
     display: none !important;
 }
 
+.void_card {
+    border: 1px solid #464E6C;
+    border-radius: 16rem;
+    font-family: Iceberg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20rem;
+    line-height: 24rem;
+    color: #FF284A;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.void_card::after {
+    display: block;
+    position: absolute;
+    width: 75rem;
+    height: 50rem;
+    content: '';
+    background: url("/images/utils/choose-arrow-card.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 20rem;
+    bottom: 33rem;
+}
+
+.void_card > div {
+    padding-bottom: 100rem;
+}
+
 @media (max-width: 600px) {
     .slider {
         display: block !important;
     }
     .marketplace_container {
         display: none;
+    }
+    .void_card {
+        display: flex !important;
+        height: 555rem;
+        box-sizing: border-box;
     }
 }
