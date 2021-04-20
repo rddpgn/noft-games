@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1884f0f3-76bc-4f07-9a14-7bd411120629" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/subcription-form/SubscribtionFormStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/subcription-form/SubscribtionFormStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/subcription-form/SubscriptionForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/subcription-form/SubscriptionForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
       <workItem from="1618780333758" duration="9457000" />
       <workItem from="1618852362737" duration="22259000" />
       <workItem from="1618910388601" duration="13968000" />
-      <workItem from="1618943603009" duration="2308000" />
+      <workItem from="1618943603009" duration="3999000" />
     </task>
     <servers />
   </component>

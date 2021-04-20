@@ -32,6 +32,7 @@
     transition: background-color, 0.2s;
     display: inline-block;
     outline: none;
+    width: 188rem;
 }
 
 .button:hover {
@@ -83,7 +84,7 @@
 
 .rocket {
     display: inline-block;
-    margin-left: 16rem;
+    margin-left: -188rem;
     animation-name: rocket;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -92,7 +93,7 @@
 
 @keyframes rocket {
     from { left: 0; opacity: 1 }
-    to { left: 20rem; opacity: 0 }
+    to { left: 188rem; opacity: 0 }
 }
 
 @media (max-width: 600px) {

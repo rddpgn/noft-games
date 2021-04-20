@@ -8,21 +8,20 @@ import MainFeatures from "../components/main-features/MainFeatures";
 import MainMarketplace from "../components/main-marketplace/MainMarketplace";
 import Footer from "../components/footer/Footer";
 
+const ID_GTAG = 'G-LBF3265JP3';
+
 export default function Home() {
   return (
     <>
       <Head>
           <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
           <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBF3265JP3"></script>
-          <script dangerouslySetInnerHTML={{__html: `
-              [ window.dataLayer = window.dataLayer || [];
-              function gtag(){
-                dataLayer.push(arguments);
-              }
-              gtag('js', new Date());
-
-              gtag('config', 'G-LBF3265JP3');]`
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${ID_GTAG}`}/>
+          <script dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${ID_GTAG}');`,
           }}/>
       </Head>
 

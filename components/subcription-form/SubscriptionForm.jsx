@@ -18,8 +18,8 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
     return (
         <div className={styles.form}>
             <input className={styles.input} ref={node => (email = node)} type="email" placeholder="Email"/>
-            {status !== "error" && status !== "success" && <button className={styles.button} onClick={submit}>Submit</button>}
-            {status === "error" && <button className={styles.button + " " + styles.button_disabled} onClick={submit}>Submit</button>}
+            {status !== "error" && status !== "success" && <button className={styles.button} onClick={submit}>Subscribe</button>}
+            {status === "error" && <button className={styles.button + " " + styles.button_disabled} onClick={submit}>Subscribe</button>}
             {status === "success" && <button className={styles.button}>Done</button>}
             {status === "success" && <div className={styles.success} dangerouslySetInnerHTML={{ __html: message }}/>}
             {status === "error" && <div className={styles.error} dangerouslySetInnerHTML={{ __html: message }}/>}
