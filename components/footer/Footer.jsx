@@ -12,6 +12,7 @@ const Footer = () => {
                 <div>
                     <h2>KEEP IN TOUCH</h2>
                     <div className={styles.subscribe_text}>Subscribe not to miss the start of sales:</div>
+
                 </div>
                 <div className={styles.links}>
                     <span>Follow us:</span>
@@ -22,7 +23,6 @@ const Footer = () => {
             <div className={styles.subfooter}>
                 2021 Noft Games
             </div>
-            <div id="subscribe-form"></div>
         </footer>
     )
 }

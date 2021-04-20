@@ -94,3 +94,9 @@
         font-size: 16rem;
     }
 }
+
+@media (min-width: 1440px) {
+    .footer_main {
+        padding: 60rem calc((100vw - 1200px) / 2);
+    }
+}

@@ -75,6 +75,12 @@
     stroke: #EE1C3D;
 }
 
+@media (min-width: 1440px) {
+    .header {
+        padding: 0 calc((100vw - 1200px) / 2);
+    }
+}
+
 @media (max-width: 600px) {
     .header {
         padding: 20rem;
