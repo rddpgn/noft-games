@@ -26,21 +26,21 @@ const MainMarketplace = () => {
         <section>
             <h2>MARKETPLACE</h2>
             <div className={styles.marketplace_container}>
-                <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0}/>
-                <HeroCard opened={cardsState[1]} onclick={onClickCallback} cardId={1}/>
-                <HeroCard opened={cardsState[2]} onclick={onClickCallback} cardId={2}/>
-                <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
-                <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
-                <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
+                <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0} cardImage="/images/card-faces/1.png"/>
+                <HeroCard opened={cardsState[1]} onclick={onClickCallback} cardId={1} cardImage="/images/card-faces/2.png"/>
+                <HeroCard opened={cardsState[2]} onclick={onClickCallback} cardId={2} cardImage="/images/card-faces/3.png"/>
+                <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3} cardImage="/images/card-faces/4.png"/>
+                <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4} cardImage="/images/card-faces/5.png"/>
+                <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5} cardImage="/images/card-faces/6.png"/>
                 <a href="#subscribe-form" className={styles.void_card}><div>Subscribe for updates</div></a>
             </div>
             <Slider {...settings} className={styles.slider}>
-                <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0}/>
-                <HeroCard opened={cardsState[1]} onclick={onClickCallback} cardId={1}/>
-                <HeroCard opened={cardsState[2]} onclick={onClickCallback} cardId={2}/>
-                <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3}/>
-                <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4}/>
-                <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5}/>
+                <HeroCard opened={cardsState[0]} onclick={onClickCallback} cardId={0} cardImage="/images/card-faces/1.png"/>
+                <HeroCard opened={cardsState[1]} onclick={onClickCallback} cardId={1} cardImage="/images/card-faces/2.png"/>
+                <HeroCard opened={cardsState[2]} onclick={onClickCallback} cardId={2} cardImage="/images/card-faces/3.png"/>
+                <HeroCard opened={cardsState[3]} onclick={onClickCallback} cardId={3} cardImage="/images/card-faces/4.png"/>
+                <HeroCard opened={cardsState[4]} onclick={onClickCallback} cardId={4} cardImage="/images/card-faces/5.png"/>
+                <HeroCard opened={cardsState[5]} onclick={onClickCallback} cardId={5} cardImage="/images/card-faces/6.png"/>
                 <a href="#subscribe-form" className={styles.void_card}><div>Subscribe for updates</div></a>
             </Slider>
             <div className={styles.slider_counter}>{currentCard + 1}/7</div>

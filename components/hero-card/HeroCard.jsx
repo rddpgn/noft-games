@@ -6,7 +6,7 @@ const HeroCard = (props) => {
         <div className={styles.card_container} onMouseOver={() => props.onclick(props.cardId, true)} onMouseOut={() => props.onclick(props.cardId, false)}>
             <div className={styles.card_front}>
                 <div className={styles.card_front_image_container}>
-                    <img src="/images/pictures/card-hero.jpg" alt=""/>
+                    <img src={props.cardImage} alt=""/>
                     <div className={styles.card_front_image_price}>
                         <h3>10.000</h3>
                         <div>ERC721</div>
@@ -20,7 +20,7 @@ const HeroCard = (props) => {
             <div className={styles.card_back + ' ' + (props.opened ? styles.visible : styles.invisible)}>
                 <div className={styles.close_button} onClick={() => props.onclick(props.cardId, false)}>-</div>
                 <div className={styles.card_back_header}>
-                    <img src="/images/pictures/card-hero.jpg" alt=""/>
+                    <img src={props.cardImage} alt=""/>
                     <div className={styles.card_back_header_wrapper}>
                         <div className={styles.card_back_header_name}>Noft Game</div>
                         <div className={styles.card_back_stats_container}>
