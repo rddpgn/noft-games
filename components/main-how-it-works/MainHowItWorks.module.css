@@ -57,6 +57,11 @@
     line-height: 22rem;
     color: #FFFFFF;
     text-decoration: none;
+    transition: background 0.2s;
+}
+
+.link:hover {
+    background: #D21533;
 }
 
 @media (max-width: 600px) {

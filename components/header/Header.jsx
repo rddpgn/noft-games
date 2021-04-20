@@ -2,8 +2,8 @@ import styles from "./HeaderStyle.module.css";
 import IconTwitter from "../../public/images/icons/icon-twitter.svg";
 import IconTelegram from "../../public/images/icons/icon-telegram.svg";
 
-const twitterLink = 'https://twitter.com/noftgames';
-const telegramLink = 'https://t.me/noftgames';
+const twitterLink = '//twitter.com/noftgames';
+const telegramLink = '//t.me/noftgames';
 
 const Header = () => {
     return (

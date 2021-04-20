@@ -1,6 +1,6 @@
 .background_gradient {
   background: linear-gradient(180deg, rgba(5, 13, 38, 0.2) 0%, #050D26 100%),
-              url("/images/backgrounds/background-cover.png");
+              url("/images/backgrounds/background-cover.jpg");
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 
   .background_gradient {
     background: linear-gradient(180deg, rgba(5, 13, 38, 0.2) 0%, #050D26 100%),
-    url("/images/backgrounds/background-cover-big.png");
+    url("/images/backgrounds/background-cover-big.jpg");
   }
 }
 

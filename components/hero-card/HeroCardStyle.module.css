@@ -211,8 +211,13 @@
     display: block;
     background-color: #FF284A;
     border-radius: 8rem;
-    padding: 15rem 40rem;
+    padding: 15rem 15rem;
     text-align: center;
+    transition: background 0.2s;
+}
+
+.buy_button:hover {
+    background: #D21533;
 }
 
 .buy_button_front {

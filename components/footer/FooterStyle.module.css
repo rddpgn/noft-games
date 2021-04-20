@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 0;
+    align-self: flex-end;
 }
 
 .social_network_link {
@@ -85,9 +86,10 @@
 
     .links {
         margin-top: 40rem;
-        justify-content: flex-start;
+        justify-content: center;
         font-size: 16rem;
         line-height: 20rem;
+        width: 100%;
     }
 
     .subscribe_text {

@@ -1,9 +1,12 @@
 import styles from "./FooterStyle.module.css";
 import IconTwitter from "../../public/images/icons/icon-twitter.svg";
 import IconTelegram from "../../public/images/icons/icon-telegram.svg";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+import SubscriptionForm from "../subcription-form/SubscriptionForm";
 
-const twitterLink = 'https://twitter.com/noftgames';
-const telegramLink = 'https://t.me/noftgames';
+const twitterLink = '//twitter.com/noftgames';
+const telegramLink = '//t.me/noftgames';
+const subscriptionLink = "//yandex.us1.list-manage.com/subscribe/post?u=6f2e045922cbfbbb5db446716&amp;id=32b2484365";
 
 const Footer = () => {
     return (
@@ -12,7 +15,18 @@ const Footer = () => {
                 <div>
                     <h2>KEEP IN TOUCH</h2>
                     <div className={styles.subscribe_text}>Subscribe not to miss the start of sales:</div>
-
+                    <div id="subscribe-form">
+                        <MailchimpSubscribe
+                            url={subscriptionLink}
+                            render={({ subscribe, status, message }) => (
+                                <SubscriptionForm
+                                    status={status}
+                                    message={message}
+                                    onValidated={formData => subscribe(formData)}
+                                />
+                            )}
+                        />
+                    </div>
                 </div>
                 <div className={styles.links}>
                     <span>Follow us:</span>

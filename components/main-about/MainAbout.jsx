@@ -6,7 +6,7 @@ const aboutText = `The Noft Games is a cosmo-saga where you get characters, enjo
 const MainAbout = () => {
     return (
         <section className={styles.about}>
-            <img className={styles.spaceship} src="/images/pictures/spaceship.png" alt=""/>
+            <img className={styles.spaceship} src="/images/pictures/spaceship-full.png" alt=""/>
             <div>
                 <h2>ABOUT</h2>
                 <p className={styles.text}>{aboutText}</p>

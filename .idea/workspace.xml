@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1884f0f3-76bc-4f07-9a14-7bd411120629" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/subcription-form/SubscribtionFormStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/subcription-form/SubscriptionForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/FooterStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/FooterStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hero-card/HeroCardStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero-card/HeroCardStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-about/MainAbout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-about/MainAbout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-about/MainAboutStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-about/MainAboutStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-features/MainFeaturesStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-features/MainFeaturesStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/backgrounds/background-cover-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/backgrounds/background-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/backgrounds/background-features.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/spaceship.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/spaceship.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +76,8 @@
       <workItem from="1618069934865" duration="9188000" />
       <workItem from="1618416936242" duration="8537000" />
       <workItem from="1618780333758" duration="9457000" />
-      <workItem from="1618852362737" duration="20880000" />
+      <workItem from="1618852362737" duration="22259000" />
+      <workItem from="1618910388601" duration="5106000" />
     </task>
     <servers />
   </component>
