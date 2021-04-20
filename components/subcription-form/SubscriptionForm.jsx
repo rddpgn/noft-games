@@ -1,5 +1,6 @@
 import styles from './SubscribtionFormStyle.module.css';
 import React, { useState } from 'react';
+import SubscriptionFormButton from "../subscription-form-button/SubscriptionFormButton";
 
 const SubscriptionForm =  ({ status, message, onValidated }) => {
     let email;
@@ -18,13 +19,15 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
     return (
         <div className={styles.form}>
             <input className={styles.input} ref={node => (email = node)} type="email" placeholder="Email"/>
-            {status !== "error" && status !== "success" && <button className={styles.button} onClick={submit}>Subscribe</button>}
-            {status === "error" && <button className={styles.button + " " + styles.button_disabled} onClick={submit}>Subscribe</button>}
-            {status === "success" && <button className={styles.button}>Done</button>}
+            <SubscriptionFormButton onClickCallback={submit}
+                                    subscribeText="Subscribe"
+                                    subscribedText="Done"
+                                    dis={status === "error" || internalError}
+                                    animated={status === "success"}
+            />
             {status === "success" && <div className={styles.success} dangerouslySetInnerHTML={{ __html: message }}/>}
             {status === "error" && <div className={styles.error} dangerouslySetInnerHTML={{ __html: message }}/>}
             {internalError && <div className={styles.error}>Something went wrong. Please try again later</div>}
-            {status === "success" && <img className={styles.rocket} src="/images/icons/rocket.svg" alt=""/>}
         </div>
     );
 };

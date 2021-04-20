@@ -1,0 +1,123 @@
+.button_container {
+    background: #FF284A;
+    border-radius: 8rem;
+    font-family: Iceberg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18rem;
+    line-height: 22rem;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 15rem 50rem;
+    cursor: pointer;
+    margin-left: 20rem;
+    margin-top: 0;
+    transition: background-color, 0.2s;
+    display: inline-block;
+    outline: none;
+    width: 188rem;
+    position: relative;
+    box-sizing: border-box;
+    height: 50rem;
+    top: 19rem;
+}
+
+.button_container:hover {
+    background: #D21533;
+}
+
+.button_container_disabled {
+    background: #464E6C;
+}
+
+.button_container_disabled:hover {
+    background: #464E6C;
+}
+
+.button_text {
+    text-align: center;
+}
+
+.button_text > div {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes textanim {
+    0% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.button_text .sub_text {
+    opacity: 1;
+}
+
+.button_text .subed_text {
+    opacity: 0;
+}
+
+.button_text.animated .sub_text {
+    animation-name: textanim;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.button_text.animated .subed_text {
+    animation-name: textanim;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+.button_left_padding {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    background-color: inherit;
+    border-radius: 8rem;
+}
+
+.button_right_padding {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    background-color: inherit;
+    border-radius: 8rem;
+}
+
+.rocket {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: left 0s;
+
+}
+
+.rocket.animated {
+    left: 80%;
+    transition: left 1s;
+}
+
+@media (max-width: 600px) {
+    .button_container {
+        margin-left: 0;
+        top: 0;
+        margin-top: 10rem;
+        width: 100%;
+    }
+}
