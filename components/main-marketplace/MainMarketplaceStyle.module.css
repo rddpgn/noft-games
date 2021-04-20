@@ -1,6 +1,6 @@
 .marketplace_container {
     display: grid;
-    grid-template-columns: 270rem 270rem 270rem 270rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40rem;
 }
 

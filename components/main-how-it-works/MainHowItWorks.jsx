@@ -19,7 +19,7 @@ const MainHowItWorks = () => {
                 </div>
             </div>
             <div className={styles.link_container}>
-                <a href="" className={styles.link}>TAKE A CHANCE</a>
+                <a href="#subscribe-form" className={styles.link}>TAKE A CHANCE</a>
             </div>
         </section>
     )

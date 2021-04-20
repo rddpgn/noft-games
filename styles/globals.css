@@ -2,8 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-size: calc(1vw / 14.40);
+  /*font-size: calc(1vw / 14.40);*/
+  font-size: calc((1vw / 72) + 0.8px);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -55,6 +57,13 @@ h2 {
   font-size: 25rem;
   line-height: 31rem;
   color: rgba(226, 227, 232, 0.4);
+}
+
+@media (min-width: 600px) and (max-width: 1440px) {
+  html,
+  body {
+    font-size: calc(1vw / 14.40);
+  }
 }
 
 @media (max-width: 600px) {
