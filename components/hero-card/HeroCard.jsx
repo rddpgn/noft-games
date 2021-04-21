@@ -1,5 +1,6 @@
 import styles from "./HeroCardStyle.module.css";
 import React, { useState } from 'react';
+import ScrollToForm from "../../scripts/ScrollToForm";
 
 const HeroCard = (props) => {
     return (
@@ -14,7 +15,7 @@ const HeroCard = (props) => {
                 </div>
                 <div className={styles.card_front_name_container}>
                     <div className={styles.card_front_name}>Noft Game</div>
-                    <a href="#subscribe-form" className={styles.buy_button + ' ' + styles.buy_button_front}>BUY</a>
+                    <a style={{cursor:"pointer"}} onClick={ScrollToForm} className={styles.buy_button + ' ' + styles.buy_button_front}>BUY</a>
                 </div>
             </div>
             <div className={styles.card_back + ' ' + (props.opened ? styles.visible : styles.invisible)}>
@@ -81,7 +82,7 @@ const HeroCard = (props) => {
                         <div className={styles.card_back_main_stats_row_stat}>80</div>
                     </div>
                 </div>
-                <a className={styles.buy_button} href="#subscribe-form">Buy for 7.000 ERC721</a>
+                <a className={styles.buy_button} style={{cursor:"pointer"}} onClick={ScrollToForm}>Buy for 7.000 ERC721</a>
             </div>
         </div>
     )

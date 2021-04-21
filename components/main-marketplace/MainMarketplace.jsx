@@ -5,8 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import HeroCardMin from "../hero-card-min/HeroCardMin";
-
-
+import ScrollToForm from "../../scripts/ScrollToForm";
 
 const MainMarketplace = () => {
     const [cardsState, setOpenedCardId] = useState([false, false, false, false, false, false]);
@@ -33,7 +32,7 @@ const MainMarketplace = () => {
                 <HeroCardMin cardImage="/images/card-faces/4.png"/>
                 <HeroCardMin cardImage="/images/card-faces/5.png"/>
                 <HeroCardMin cardImage="/images/card-faces/6.png"/>
-                <a href="#subscribe-form" className={styles.void_card}><div>Subscribe for updates</div></a>
+                <a style={{cursor:"pointer"}} onClick={ScrollToForm} className={styles.void_card}><div>Subscribe for updates</div></a>
             </div>
             <Slider {...settings} className={styles.slider}>
                 <HeroCardMin cardImage="/images/card-faces/1.png"/>
@@ -42,7 +41,7 @@ const MainMarketplace = () => {
                 <HeroCardMin cardImage="/images/card-faces/4.png"/>
                 <HeroCardMin cardImage="/images/card-faces/5.png"/>
                 <HeroCardMin cardImage="/images/card-faces/6.png"/>
-                <a href="#subscribe-form" className={styles.void_card}><div>Subscribe for updates</div></a>
+                <a style={{cursor:"pointer"}} onClick={ScrollToForm} className={styles.void_card}><div>Subscribe for updates</div></a>
             </Slider>
             <div className={styles.slider_counter}>{currentCard + 1}/7</div>
         </section>
