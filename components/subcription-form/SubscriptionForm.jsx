@@ -15,7 +15,7 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
         } else {
             setInternalError(true);
         }
-        email.value = '';
+        setTimeout((email) => email.value = '', 1000, email);
     }
 
     return (
