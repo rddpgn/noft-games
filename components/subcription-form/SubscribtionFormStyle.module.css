@@ -77,4 +77,12 @@
     .rocket {
         display: none;
     }
+
+    .success {
+        width: calc(100% - 40rem);
+    }
+
+    .error {
+        width: calc(100% - 40rem);
+    }
 }
