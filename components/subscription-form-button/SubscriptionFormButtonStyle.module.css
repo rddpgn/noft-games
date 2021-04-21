@@ -57,25 +57,40 @@
         opacity: 0;
     }
 }
+
+@keyframes textanimrev {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .button_text .sub_text {
-    opacity: 1;
+    animation-name: textanimrev;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .button_text .subed_text {
-    opacity: 0;
+    animation-name: textanim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .button_text.animated .sub_text {
     animation-name: textanim;
     animation-duration: 1s;
-    animation-direction: normal;
     animation-fill-mode: forwards;
 }
 
 .button_text.animated .subed_text {
-    animation-name: textanim;
+    animation-name: textanimrev;
     animation-duration: 1s;
-    animation-direction: reverse;
     animation-fill-mode: forwards;
 }
 

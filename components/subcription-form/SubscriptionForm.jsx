@@ -1,10 +1,11 @@
 import styles from './SubscribtionFormStyle.module.css';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import SubscriptionFormButton from "../subscription-form-button/SubscriptionFormButton";
 
 const SubscriptionForm =  ({ status, message, onValidated }) => {
     let email;
     const [internalError, setInternalError] = useState(false);
+
     const submit = () => {
         if (email && email.value.indexOf("@") > -1) {
             onValidated({
@@ -14,6 +15,7 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
         } else {
             setInternalError(true);
         }
+        email.value = '';
     }
 
     return (

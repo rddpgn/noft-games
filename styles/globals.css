@@ -85,13 +85,13 @@ h2 {
 .slick-prev {
   position: absolute !important;
   left: 15rem !important;
-  top: 615rem !important;
+  top: 645rem !important;
 }
 
 .slick-next {
   position: absolute !important;
   right: 70rem !important;
-  top: 618rem !important;
+  top: 648rem !important;
 }
 
 .slick-arrow::before {
