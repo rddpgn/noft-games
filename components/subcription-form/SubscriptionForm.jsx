@@ -5,6 +5,7 @@ import SubscriptionFormButton from "../subscription-form-button/SubscriptionForm
 const SubscriptionForm =  ({ status, message, onValidated }) => {
     let email;
     const [internalError, setInternalError] = useState(false);
+    const [showMessage, setShowMesage] = useState(false);
 
     const submit = () => {
         if (email && email.value.indexOf("@") > -1) {
@@ -14,7 +15,10 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
             setInternalError(false);
         } else {
             setInternalError(true);
+            email.value = '';
         }
+        setShowMesage(true);
+        setTimeout(() => setShowMesage(false), 10000);
         setTimeout((email) => email.value = '', 1000, email);
     }
 
@@ -27,11 +31,11 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
                                     dis={status === "error" || internalError}
                                     animated={status === "success"}
             />
-            {status === "success" && <div className={styles.success} dangerouslySetInnerHTML={{ __html: message }}/>}
-            {status === "error" && <div className={styles.error} dangerouslySetInnerHTML={{ __html: message }}/>}
-            {internalError && <div className={styles.error}>Something went wrong. Please try again later</div>}
+            {showMessage && status === "success" && <div className={styles.success} dangerouslySetInnerHTML={{ __html: message }}/>}
+            {showMessage && status === "error" && <div className={styles.error} dangerouslySetInnerHTML={{ __html: message }}/>}
+            {showMessage && status !== "error" && internalError && <div className={styles.error}>Something went wrong. Please try again later</div>}
         </div>
     );
-};
+}
 
 export default SubscriptionForm;

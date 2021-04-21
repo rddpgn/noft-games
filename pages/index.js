@@ -7,6 +7,7 @@ import MainHowItWorks from "../components/main-how-it-works/MainHowItWorks";
 import MainFeatures from "../components/main-features/MainFeatures";
 import MainMarketplace from "../components/main-marketplace/MainMarketplace";
 import Footer from "../components/footer/Footer";
+import smoothscroll from '../scripts/SmoothScroll';
 
 const ID_GTAG = 'G-LBF3265JP3';
 
@@ -23,6 +24,7 @@ export default function Home() {
                 gtag('js', new Date());
                 gtag('config', '${ID_GTAG}');`,
           }}/>
+          <script dangerouslySetInnerHTML={{__html:smoothscroll}}/>
       </Head>
 
       <div className={styles.background_gradient}></div>
