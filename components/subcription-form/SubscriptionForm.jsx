@@ -18,7 +18,7 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
             email.value = '';
         }
         setShowMesage(true);
-        setTimeout(() => setShowMesage(false), 10000);
+        setTimeout(() => setShowMesage(false), 16000);
         setTimeout((email) => email.value = '', 1000, email);
     }
 
@@ -31,9 +31,7 @@ const SubscriptionForm =  ({ status, message, onValidated }) => {
                                     dis={status === "error" || internalError}
                                     animated={status === "success"}
             />
-            {showMessage && status === "success" && <div className={styles.success} dangerouslySetInnerHTML={{ __html: message }}/>}
-            {showMessage && status === "error" && <div className={styles.error} dangerouslySetInnerHTML={{ __html: message }}/>}
-            {showMessage && status !== "error" && internalError && <div className={styles.error}>Something went wrong. Please try again later</div>}
+            {showMessage && <div className={(status === "error" || internalError) ? styles.error : styles.success} dangerouslySetInnerHTML={{ __html: !internalError ? message : "Something went wrong. Please try again later"}}/>}
         </div>
     );
 }

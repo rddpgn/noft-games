@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1884f0f3-76bc-4f07-9a14-7bd411120629" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/ScrollToForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/hero-card/HeroCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero-card/HeroCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-how-it-works/MainHowItWorks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-marketplace/MainMarketplace.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-marketplace/MainMarketplace.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/subcription-form/SubscriptionForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/subcription-form/SubscriptionForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <workItem from="1618910388601" duration="13968000" />
       <workItem from="1618943603009" duration="16944000" />
       <workItem from="1619002366291" duration="1464000" />
-      <workItem from="1619026351503" duration="2281000" />
+      <workItem from="1619026351503" duration="3047000" />
     </task>
     <servers />
   </component>
