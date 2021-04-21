@@ -95,6 +95,10 @@
     .subscribe_text {
         font-size: 16rem;
     }
+
+    .footer {
+        margin-top: 60rem;
+    }
 }
 
 @media (min-width: 1440px) {
