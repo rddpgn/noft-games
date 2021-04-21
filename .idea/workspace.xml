@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1884f0f3-76bc-4f07-9a14-7bd411120629" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/hero-card-min/HeroCardMin.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/hero-card-min/HeroCardMinStyle.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main-marketplace/MainMarketplace.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-marketplace/MainMarketplace.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/main-marketplace/MainMarketplaceStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main-marketplace/MainMarketplaceStyle.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <workItem from="1618780333758" duration="9457000" />
       <workItem from="1618852362737" duration="22259000" />
       <workItem from="1618910388601" duration="13968000" />
-      <workItem from="1618943603009" duration="15628000" />
+      <workItem from="1618943603009" duration="15947000" />
     </task>
     <servers />
   </component>
