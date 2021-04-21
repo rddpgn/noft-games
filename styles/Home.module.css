@@ -28,8 +28,10 @@
   }
 
   .background_gradient {
-    background: linear-gradient(180deg, rgba(5, 13, 38, 0.2) 0%, #050D26 100%),
-    url("/images/backgrounds/background-cover-big.jpg");
+    background: url("/images/backgrounds/background-cover-big.jpg"),
+                linear-gradient(180deg, rgba(5, 13, 38, 0.2) 0%, #050d26 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 

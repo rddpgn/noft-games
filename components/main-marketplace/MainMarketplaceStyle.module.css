@@ -2,10 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40rem;
+    margin-top: 40rem;
 }
 
 .slider {
     display: none !important;
+    margin-top: 40rem;
 }
 
 .void_card {
@@ -63,8 +65,10 @@
     }
     .void_card {
         display: flex !important;
-        height: 555rem;
         box-sizing: border-box;
+        height: 444rem;
+        width: calc(100% - 40rem) !important;
+        margin: 0 20rem;
     }
     .slider_counter {
         display: block;
